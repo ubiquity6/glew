@@ -1,0 +1,3 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.12.4)
+PROJECT(glew_wrapper)
+execute_process(COMMAND ${CMAKE_SOURCE_DIR}/build.sh)
